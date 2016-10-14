@@ -1,4 +1,5 @@
 axios = require('axios')
+storage = require('./storage')
 
 module.exports = (robot) ->
   storage = new Storage(robot)
