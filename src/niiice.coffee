@@ -15,7 +15,7 @@ module.exports = (robot) ->
     url = "https://slack.com/api/reactions.add?token=#{payload.token}&name=#{payload.name}&timestamp=#{payload.timestamp}&channel=#{payload.channel}"
 
     axios
-      .get (url)
+      .get(url)
       .then (res) -> return true
       .catch (err) -> return false
 
