@@ -1,0 +1,25 @@
+{
+  "name": "hubot-niiice",
+  "version": "0.69",
+  "description": "A real, real nice hubot script",
+  "main": "index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brousalis/hubot-niiice.git"
+  },
+  "keywords": [
+    "69",
+    "420",
+    "hubot",
+    "niiice"
+  ],
+  "author": "Pete Brousalis <https://github.com/brousalis>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brousalis/hubot-niiice/issues"
+  },
+  "dependencies": {
+    "axios": "^0.12.0",
+    "coffee-script": "~1.6"
+  }
+}
