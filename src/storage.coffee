@@ -12,4 +12,7 @@ class Storage
     @storage.scores[number] ||= 0
     @storage.scores[number]++
 
+  scores: ->
+    @storage.scores
+
 module.exports = Storage

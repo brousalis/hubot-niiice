@@ -25,3 +25,7 @@ module.exports = (robot) ->
   robot.hear /\b420\b/, (msg) ->
     reaction(msg, 'niiice')
     storage.add('420')
+
+  robot.respond /how niiice/, (msg) ->
+    scores = storage.scores()
+    msg.send(scores)
